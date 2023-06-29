@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(31, 36, 47); */
+    background-color: black;
+}
+a,ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* -------------- Header-all -------------- */
+.header-all{
+    width: 100%;
+    height: 8vh;
+}
+.header-all li a{
+    /* margin-top: 25px; */
+    color: #bbbbbb;
+}
+.header-all ul{
+    padding-left: 0;
+    height: 8vh;
+}
+.header-all li{
+    align-self: center;
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+.active{
+    border-bottom: 1px solid white;
+}
+
+
+
+/* -------------- İndex - Header -------------- */
+.index .header{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)) ,url(img/arkaplan.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.index .nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+.index .dropdown:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.index .header i{
+    padding-right: 4px;
+}
+.index .header-content .header-row{
+    height: 80vh;
+}
+.index .header-content .header-row h1{
+    font-size: 4rem;
+}
+.index .accordion-button{
+    color: #fff;
+    background-color: rgb(44, 44, 44);
+}
+.index .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: rgb(44, 44, 44);
+}
+.index .accordion-button:focus{
+    box-shadow: none;
+}
+
+/* -------------- İndex - Main -------------- */
+.index #orders #order1{
+    order: 1;
+}
+.index #orders #order2{
+    order: 2;
+}
+hr{
+    color: #8e8b8b; 
+}
+.accordion-button::after{
+    background-image: url(img/icons8-plus-math-50.png);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(img/icons8-subtract-48.png);
+}
+
+/* -------------- İndex - Footer -------------- */
+
+.index footer ul li a{
+    color: #bbbbbb;
+}
+.index footer .col-sm-3{
+    color: #bbbbbb;
+}
+.index footer .col-sm-3 ul{   
+    padding: 0;
+}
+.index footer .col-sm-3 ul li{   
+    padding-bottom: 30px;
+}
+.index footer .dropdown{
+    width: 110px;
+}
+
+
+
+
+
+
+
+/* -------------- Browse -------------- */
+.browse .main-content{
+    width: 75%;
+    height: 70vh;
+    margin: auto;
+    background-color: rgb(27, 29, 33);
+}
+.browse .content1 h1{
+    color: #fff;
+    text-align: center;
+}
+.browse .content2{
+    display: flex;
+    justify-content: space-around;
+}
+.browse .content2 .users{
+    width: 23%;
+}
+.browse .content2 .users img:hover{
+    border: 4px white solid;
+}
+.browse .content2 .users img{
+    border-radius: 5px;
+}
+.browse .content2 .users p{
+    color: #8e8b8b;
+}
+.browse .content3 button{
+    padding: 10px 20%;
+    margin-top: 40px;
+    color: #8e8b8b;
+    background-color: rgb(28, 31, 41);
+    margin-bottom: 40px;
+}
+.browse .content3 button:hover{
+    border: #fff 1px solid;
+    color: #fff;
+}
+
+
+
+
+
+/* -------------- Hesap - Header -------------- */
+.hesap header{
+    width: 100%;
+    height: 10vh;
+}
+.hesap .nav-sol{
+    display: flex;
+}
+.hesap nav{
+    display: flex;
+    justify-content: space-between;
+}
+.hesap .nav-sag{
+    display: flex;
+    height: 10vh;
+}
+.hesap .links ul{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+.hesap .links ul a{
+    color: #bbbbbb;
+}
+.hesap .links li{
+    padding-right: 15px;
+}
+.hesap .icon{
+    display: flex;
+    align-items: center;
+}
+.hesap .drop{
+    display: flex;
+    align-items: center;
+}
+.hesap .btn{
+    color: #fff;
+}
+.hesap .dropdown-menu-dark {
+    background-color: #ffffff;
+    color: black;
+}
+.hesap .dropdown-item{
+    color: black !important;
+}
+.hesap .dropdown-item.active, .dropdown-item:active{
+    background-color: #fff;
+    color: black;
+}
+/* -------------- Hesap - Main -------------- */
+.hesap main{
+    background-color: #dedede;
+}
+.hesap main .row p{
+    margin-bottom: 10px !important;
+}
+.hesap main .row h3{
+    font-weight: 400;
+}
+/* -------------- Hesap - Footer -------------- */
+
+.hesap footer{
+    padding-top: 60px;
+}
+.hesap footer ul li a{
+    color: #bbbbbb;
+}
+.hesap footer .col-sm-3{
+    color: #bbbbbb;
+}
+.hesap footer .col-sm-3 ul{   
+    padding: 0;
+}
+.hesap footer .col-sm-3 ul li{   
+    padding-bottom: 30px;
+}
+.hesap footer .dropdown{
+    width: 110px;
+}
+
+
+
+
+/* -------------- Browse Index - Main -------------- */
+.browse-index-main{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)) ,url(img/arkaplan.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+.browse-index-main .row{
+    padding-top: 200px;
+    color: #fff;
+    text-align: center;
+}
+.browse-index-main .row h1{
+    font-size: 70px;
+}
+.browse-index-main .row h6{
+    font-size: 20px;
+}
+.browse-index-section {
+    background-color: #181a22;
+} 
+.browse-index-section .row img{
+    padding-bottom: 10px;
+} 
+.browse-index-section h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------- Login - Header -------------- */
+
+.login header{
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)) ,url(img/arkaplan.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login .bg-opac{
+    background-color: rgba(0,0,0,.7);
+}
+.login .content-border{
+    border: none;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: rgb(187, 187, 187) !important;
+}
+.login .content{
+    margin-bottom: 300px;
+    
+}
+
+  
+
+
+@media (max-width:600px){
+
+    /* -------------- İndex - Header -------------- */
+    .index .col-sm-3 ul li,.col-sm-3 p{   
+        text-align: center;
+    
+    }
+    .index footer .footer-btn,.index .footer-content p{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .index .header-content .header-row h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    /* -------------- İndex - Main -------------- */
+    .index #orders #order1{
+        order: 2;
+    }
+    .index #orders #order2{
+        order: 1;
+    }
+    .index #content-orta1{
+        text-align: center;
+        padding: 5px 0;
+    }
+    /* -------------- İndex - Footer -------------- */
+    .index footer .col-sm-3 ul li{   
+        padding-bottom: 10px;
+    }
+
+
+
+
+
+
+
+    /* -------------- Browse -------------- */
+    .browse .content2{
+        display: block;
+    }
+    .browse .main-content{
+        width: 90%;
+        margin: auto;
+    }
+    .browse .content2 .users{
+        width: 60%;
+        margin: auto;
+    }
+    .browse .container .browse-img{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+
+
+
+
+    /* -------------- Hesap - Header -------------- */
+    .hesap header{
+        height: auto;
+    }
+    .hesap .nav-sol{
+        display: block;
+    }
+    .hesap .nav-sol .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .hesap nav{
+        display: block;
+    }
+    .hesap .nav-sag{
+        display: flex;
+        height: 10vh;
+        justify-content: center;
+    }
+    .hesap .me-5{
+        margin-right: 0 !important;
+    }
+    .hesap .links ul{
+        display: block;
+        height: auto;
+        align-items: center;
+        padding: 0;
+    }
+    .hesap .links li{
+        padding-bottom: 12px;
+        text-align: center;
+        padding-right: 0;
+    }
+    /* -------------- Hesap - Main -------------- */
+    .hesap main .row {
+        text-align: center;
+    }
+    .hesap main .row .content-orta{
+        display: flex;
+        justify-content: center;
+    }
+    .hesap main .row button{
+        margin: 15px 0;
+    }
+    /* -------------- Hesap - Footer -------------- */
+    .hesap .col-sm-3 ul li,.col-sm-3 p{   
+        text-align: center;
+    }
+    .hesap footer .footer-btn,.index .footer-content p{
+        display: flex;
+        justify-content: center;
+    }
+    .hesap footer .row .content-orta{
+        display: flex;
+        justify-content: center;
+    }
+    .hesap footer .content-orta{
+        text-align: center;
+    }
+    .hesap footer .col-sm-3 ul li{   
+        padding-bottom: 10px;
+    }
+
+
+
+
+
+    /* -------------- Browse Index - Main -------------- */
+    .browse-index-section {
+        text-align: center;
+    } 
+    .browse-index-main .row{
+        padding-top: 100px;
+        padding: 60px 10px;
+    }
+    .browse-index-main .row h1{
+        font-size: 50px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+/* -------------- Login - Header -------------- */
+    .login header a{
+        display: flex;
+        justify-content: center;
+    }
+    .login .content{
+        margin-bottom: 200px;
+    }
+
+    
+    
+}
